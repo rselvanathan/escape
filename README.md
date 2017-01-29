@@ -15,7 +15,10 @@ Key Features
 - Orthographic HUD display 
 
 Notes & Instructions
-The executable folder "Escape_EXECUTABLE", will contain a standalone executable, with the required assets, that can be run on any machine 
+
+https://www.dropbox.com/s/96kmympiyct45af/Escape_EXECUTABLE.zip
+
+The above executable will contain a standalone executable with the required assets, that can be run on any machine 
 that has OpenGL installed and windows running. The executable may ask for the "Windows Microsoft Visual C++ 2010 Redistributable Package" 
 if it has never been installed before, which is necessary to run any C++ executable built using the VS2010 IDE. The download will come 
 with the installation file (if the file does not work you can download it here: http://www.microsoft.com/download/en/details.aspx?id=5555) 
