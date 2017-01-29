@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Debug">
+      <UniqueIdentifier>{a4443452-6f98-4b20-a9c9-1450639daaf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Debug">
+      <UniqueIdentifier>{c36435a3-f036-44f8-86a2-6a8e46004209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens">
+      <UniqueIdentifier>{625aa935-aba5-4679-8068-cff9cc13242b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Screens">
+      <UniqueIdentifier>{bc6ff24e-a9de-48b5-9174-3528bb681e90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Test">
+      <UniqueIdentifier>{5b373390-be0c-43a7-9839-2c4281ff7cdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Test">
+      <UniqueIdentifier>{3917d9f0-1da7-4b5e-89a3-711c1e45e92b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Player">
+      <UniqueIdentifier>{2c1a6a71-d604-4162-9faa-6bec6d044f20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects">
+      <UniqueIdentifier>{abb92e6c-0f17-438f-a3fc-431510caa682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Enemy">
+      <UniqueIdentifier>{0e54a056-9e7f-4063-ab08-bff74ccfe470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Platform">
+      <UniqueIdentifier>{8bab0fac-e1d8-4944-9a2d-181c5c080040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Score">
+      <UniqueIdentifier>{9def1e37-77f3-4919-a03a-20e1f3a6a5a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PowerUp">
+      <UniqueIdentifier>{23dfb811-e8cf-40eb-a15a-4d1a9b9c0ef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Enemy">
+      <UniqueIdentifier>{d9de988b-08ca-4491-8ce9-af951825d6bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{b4f4b072-28bb-4080-982c-d0ce86569bcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Platform">
+      <UniqueIdentifier>{94349dfe-e397-470f-b917-370687dbb3c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player">
+      <UniqueIdentifier>{989d7e59-bf76-4f6d-ab89-49c01bb1e031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParticleEmitters">
+      <UniqueIdentifier>{f12b25ec-51e4-4979-a52a-0c44d2c9926d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Particle Emitters">
+      <UniqueIdentifier>{b3109c28-4ca0-4704-8542-e35dc1db1a86}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\SRC\GameSession.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\Debug.h">
+      <Filter>Header Files\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\MenuScreen.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\MenuEntry.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\GameScreen.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\IPlayerListener.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\PlayerHUD.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\PlayerManager.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\HorizontalWall.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\VerticalWall.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\Enemy.h">
+      <Filter>Header Files\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\IEnemyListener.h">
+      <Filter>Header Files\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\ICameraListener.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\ISwitchListener.h">
+      <Filter>Header Files\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\Portal.h">
+      <Filter>Header Files\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\Switch.h">
+      <Filter>Header Files\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\Coin.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\PowerUp.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\IScoreListener.h">
+      <Filter>Header Files\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\ScoreKeeper.h">
+      <Filter>Header Files\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\IPowerUpListener.h">
+      <Filter>Header Files\PowerUp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\PowerUpManager.h">
+      <Filter>Header Files\PowerUp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\Player.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\GameOverScreen.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\NotifyMessage.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\IPortalListener.h">
+      <Filter>Header Files\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\Tree.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\TestSquare.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\Shoot.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\ExplosionFireParticle.h">
+      <Filter>Header Files\Particle Emitters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\ExplosionParticle.h">
+      <Filter>Header Files\Particle Emitters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\ExplosionSmokeParticle.h">
+      <Filter>Header Files\Particle Emitters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\RainParticle.h">
+      <Filter>Header Files\Particle Emitters</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\SRC\GameSession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\Debug.cpp">
+      <Filter>Source Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\MenuEntry.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\MenuScreen.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\GameScreen.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\GameOverScreen.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\Enemy.cpp">
+      <Filter>Source Files\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\Coin.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\HorizontalWall.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\VerticalWall.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\PowerUp.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\Portal.cpp">
+      <Filter>Source Files\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\Switch.cpp">
+      <Filter>Source Files\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\Player.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\PlayerHUD.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\NotifyMessage.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\TestSquare.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\Tree.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\Shoot.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\ExplosionFireParticle.cpp">
+      <Filter>Source Files\ParticleEmitters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\ExplosionParticle.cpp">
+      <Filter>Source Files\ParticleEmitters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\ExplosionSmokeParticle.cpp">
+      <Filter>Source Files\ParticleEmitters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\RainParticle.cpp">
+      <Filter>Source Files\ParticleEmitters</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,29 @@
+
+
+
+
+NOTE - The Executable file is/will be placed inside VC10/Escape/BIN/ - Due to technical problems the Executable is only runnable 
+
+when inside the "Escape" folder so I decided to keep it there. (did not have enough time to figure out why I cant keep it outside 
+
+with the other folders here)
+
+NOTE - The source code is inside the SRC folder right here. 
+
+
+
+
+
+
+
+
+Controls :
+
+W - move forward/ move up in menu
+S - move back / move down in menu
+A - Strafe left 
+D - Srafe Right 
+E - Hold to sprint
+Q - Shoot
+
+Mouse - Look Around

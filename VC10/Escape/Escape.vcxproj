@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7F3AE399-E5D3-4A6E-9312-06199FB802E9}</ProjectGuid>
+    <RootNamespace>Escape</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>BIN\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>Debug\</IntDir>
+    <IncludePath>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Include;..\..\INCLUDE;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\LIB;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;GLAUX.lib;GameEngine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\SRC\Coin.h" />
+    <ClInclude Include="..\..\SRC\Debug.h" />
+    <ClInclude Include="..\..\SRC\Enemy.h" />
+    <ClInclude Include="..\..\SRC\ExplosionFireParticle.h" />
+    <ClInclude Include="..\..\SRC\ExplosionParticle.h" />
+    <ClInclude Include="..\..\SRC\ExplosionSmokeParticle.h" />
+    <ClInclude Include="..\..\SRC\GameOverScreen.h" />
+    <ClInclude Include="..\..\SRC\GameScreen.h" />
+    <ClInclude Include="..\..\SRC\GameSession.h" />
+    <ClInclude Include="..\..\SRC\HorizontalWall.h" />
+    <ClInclude Include="..\..\SRC\ICameraListener.h" />
+    <ClInclude Include="..\..\SRC\IEnemyListener.h" />
+    <ClInclude Include="..\..\SRC\IPlayerListener.h" />
+    <ClInclude Include="..\..\SRC\IPortalListener.h" />
+    <ClInclude Include="..\..\SRC\IPowerUpListener.h" />
+    <ClInclude Include="..\..\SRC\IScoreListener.h" />
+    <ClInclude Include="..\..\SRC\ISwitchListener.h" />
+    <ClInclude Include="..\..\SRC\MenuEntry.h" />
+    <ClInclude Include="..\..\SRC\MenuScreen.h" />
+    <ClInclude Include="..\..\SRC\NotifyMessage.h" />
+    <ClInclude Include="..\..\SRC\Player.h" />
+    <ClInclude Include="..\..\SRC\PlayerHUD.h" />
+    <ClInclude Include="..\..\SRC\PlayerManager.h" />
+    <ClInclude Include="..\..\SRC\Portal.h" />
+    <ClInclude Include="..\..\SRC\PowerUp.h" />
+    <ClInclude Include="..\..\SRC\PowerUpManager.h" />
+    <ClInclude Include="..\..\SRC\RainParticle.h" />
+    <ClInclude Include="..\..\SRC\ScoreKeeper.h" />
+    <ClInclude Include="..\..\SRC\Shoot.h" />
+    <ClInclude Include="..\..\SRC\Switch.h" />
+    <ClInclude Include="..\..\SRC\TestSquare.h" />
+    <ClInclude Include="..\..\SRC\Tree.h" />
+    <ClInclude Include="..\..\SRC\VerticalWall.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\SRC\Coin.cpp" />
+    <ClCompile Include="..\..\SRC\Debug.cpp" />
+    <ClCompile Include="..\..\SRC\Enemy.cpp" />
+    <ClCompile Include="..\..\SRC\ExplosionFireParticle.cpp" />
+    <ClCompile Include="..\..\SRC\ExplosionParticle.cpp" />
+    <ClCompile Include="..\..\SRC\ExplosionSmokeParticle.cpp" />
+    <ClCompile Include="..\..\SRC\GameOverScreen.cpp" />
+    <ClCompile Include="..\..\SRC\GameScreen.cpp" />
+    <ClCompile Include="..\..\SRC\GameSession.cpp" />
+    <ClCompile Include="..\..\SRC\HorizontalWall.cpp" />
+    <ClCompile Include="..\..\SRC\main.cpp" />
+    <ClCompile Include="..\..\SRC\MenuEntry.cpp" />
+    <ClCompile Include="..\..\SRC\MenuScreen.cpp" />
+    <ClCompile Include="..\..\SRC\NotifyMessage.cpp" />
+    <ClCompile Include="..\..\SRC\Player.cpp" />
+    <ClCompile Include="..\..\SRC\PlayerHUD.cpp" />
+    <ClCompile Include="..\..\SRC\Portal.cpp" />
+    <ClCompile Include="..\..\SRC\PowerUp.cpp" />
+    <ClCompile Include="..\..\SRC\RainParticle.cpp" />
+    <ClCompile Include="..\..\SRC\Shoot.cpp" />
+    <ClCompile Include="..\..\SRC\Switch.cpp" />
+    <ClCompile Include="..\..\SRC\TestSquare.cpp" />
+    <ClCompile Include="..\..\SRC\Tree.cpp" />
+    <ClCompile Include="..\..\SRC\VerticalWall.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
