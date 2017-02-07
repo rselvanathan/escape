@@ -14,6 +14,8 @@ Key Features
 - Billboard Particle Effects 
 - Orthographic HUD display 
 
+For gameplay and images visit : https://romeshselvan.com/projects
+
 Notes & Instructions
 
 https://www.dropbox.com/s/96kmympiyct45af/Escape_EXECUTABLE.zip
